@@ -1,0 +1,117 @@
+/*CSS RESET*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*COMMON STYLES*/
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+/*CLEARFIX*/
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.group:after {
+	clear: both;
+}
+.group:after {
+	clear: both;
+	*zoom: 1;
+}
+/*Typography*/
+h1 {
+	font-size: 36px;
+	line-height: 1.6em;
+	margin-top: 22px;
+	margin-bottom: 22px;
+}
+/*Buttons*/
+button {
+	border: none;
+	border-radius: 3px;
+	padding: 3px 5px;
+	cursor: pointer;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #db3744;
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.5em;
+	font-weight: 100;
+	letter-spacing: 0.5px;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.time {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 160px;
+  height: 160px;
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+  font-size: 36px;
+  vertical-align: top;
+}
+.time>span {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+.time>h3 {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  text-align: center;
+  color:#924da3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+.input-box {
+  width: 140px;
+	margin-bottom: 15px;
+  font-size: 21px;
+
+}
+#start {
+	margin-left: 10px;
+	background-color: #00A350;
+	color: #fff;
+	padding: 12px 36px;
+}
+#start:disabled {
+	background-color: #ccc;
+}
+#reset {
+	background-color: #CC181E;
+	color: #fff;
+	padding: 12px 36px;
+}
+#message {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 18px;
+	
+}

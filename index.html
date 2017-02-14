@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <style>
+
+
+    </style>
+	</head>
+	<body>
+
+		<div class="container">
+			<h1>Pomodoro Timer</h1>
+      <section>
+			<div>
+				<div class="time"><span id="hour"></span><h3>Hours</h3></div>
+				<div class="time" ><span id="min"></span><h3>Minutes</h3></div>
+				<div class="time" ><span id="sec"></span><h3>Seconds</h3></div>
+			</div>
+			<div id="message">
+				
+			</div>
+      <div>
+        <label for ="work">Work</label>
+        <input type="number" class="input-box" id="work-time" name="work"  min = 1><br >
+        <label for="break">Break</label>
+        <input type="number" class="input-box" id="break-time" name="break" min = 1>
+      </div>
+      <button id="reset">Reset</button>
+      <button id="start">Start</button>
+    </section>
+		</div>
+<script src="script.js"></script>
+	</body>
+</html>
